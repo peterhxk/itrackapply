@@ -1,10 +1,10 @@
 # ITrackApply
 
-**LLM-powered job application tracker: a Chrome extension that captures job postings as you browse and syncs them to Google Sheets, automatically.**
-
-🧩 **[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/itrackapply/jbilaigpjdbljgafemjhocndajnlpgjg)** · 35+ users
+**LLM-powered job application tracker — a Chrome extension that captures job postings as you browse and syncs them to Google Sheets, automatically.**
 
 🎬 **[Watch the demo](https://youtu.be/KrnUM2nuuWE?t=53)**
+
+> **Status:** Shipped to the [Chrome Web Store](https://chromewebstore.google.com/detail/itrackapply/jbilaigpjdbljgafemjhocndajnlpgjg), where it reached 35+ users. The AWS backend is currently offline, so the extension is not functional at the moment — the demo above shows the system running end to end while it was live.
 
 Tracking job applications in a spreadsheet by hand is tedious: copy the title, the company, the link, the date, the status... every single time. ITrackApply does it in one click. Open a job posting, hit the extension, and an LLM extracts the structured fields (company, role, location, deadline, source URL) and writes them to your personal Google Sheet — with everything synced to the cloud in real time.
 
@@ -39,7 +39,7 @@ flowchart LR
 
 ## Why the code isn't all here
 
-The production system is deployed on AWS (Lambda + API Gateway + DynamoDB) and the extension is distributed through the Chrome Web Store. This repo documents the architecture; the store listing and demo above show the product live.
+The system ran on AWS (Lambda + API Gateway + DynamoDB) with the extension distributed through the Chrome Web Store. This repo documents the architecture; the demo above shows the product working while the backend was live.
 
 ## What I'd build next
 
