@@ -37,10 +37,9 @@ flowchart LR
 
 ## Why the code isn't all here
 
-The production backend is deployed on AWS (Lambda + API Gateway + DynamoDB); this repo contains the extension source and deployment configuration. The demo video above shows the full system running end to end.
+The production backend is deployed on AWS (Lambda + API Gateway + DynamoDB); The demo video above shows the full system running end to end.
 
 ## What I'd build next
 
-- Status-change tracking (applied → interview → offer) with timestamps
 - Duplicate detection when the same posting is captured from multiple job boards
 - Batch backfill from an email inbox
