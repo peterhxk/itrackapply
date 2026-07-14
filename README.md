@@ -1,6 +1,6 @@
 # ITrackApply
 
-**LLM-powered job application tracker — a Chrome extension that captures job postings as you browse and syncs them to Google Sheets, automatically.**
+**LLM-powered job application tracker: a Chrome extension that captures job postings as you browse and syncs them to Google Sheets, automatically.**
 
 🧩 **[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/itrackapply/jbilaigpjdbljgafemjhocndajnlpgjg)** · 35+ users
 
