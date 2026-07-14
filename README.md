@@ -37,7 +37,7 @@ flowchart LR
 
 ## Why the code isn't all here
 
-The production backend is deployed on AWS (Lambda + API Gateway + DynamoDB); The demo video above shows the full system running end to end.
+The production system is deployed on AWS (Lambda + API Gateway + DynamoDB). This repo documents the architecture; the demo above shows the full system running end to end.
 
 ## What I'd build next
 
